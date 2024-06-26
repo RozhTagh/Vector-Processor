@@ -2,7 +2,7 @@
 
 This project implements a vector processor in Verilog, composed of three main modules: `Memory`, `ALU`, and `RegisterFile`. These modules are combined in the `Processor` module to create a functional vector processor capable of performing various arithmetic operations and memory transactions.
 
-![cpu_image](https://www.freepik.com/premium-vector/processor-logo-icon_46961639.htm)
+![cpu_image](https://img.freepik.com/premium-vector/processor-logo-icon_617585-3379.jpg?w=1380)
 
 
 ## Project Structure
