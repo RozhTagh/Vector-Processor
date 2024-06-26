@@ -14,7 +14,7 @@ The project consists of the following Verilog files:
 - `Processor.v`
 - `Processor_TB.v`
 
-### Module Descriptions
+## Module Descriptions
 
 #### Memory Module
 
@@ -26,6 +26,7 @@ The `Memory` module handles memory read and write operations. It uses a memory a
 - `in`: Input data (512-bit)
 - `mem_addr`: Memory address (9-bit)
 - `out`: Output data (512-bit)
+---
 
 #### ALU Module
 
@@ -38,6 +39,7 @@ The `ALU` module performs arithmetic operations on vector data. It supports addi
 - `R2`: Second input operand (512-bit)
 - `R3`: Lower 32 bits of the result (512-bit)
 - `R4`: Upper 32 bits of the result (512-bit)
+---
 
 #### RegisterFile Module
 
@@ -53,6 +55,7 @@ The `RegisterFile` module manages a set of registers and allows reading from and
 - `data_out_1`: First output data (512-bit)
 - `data_out_2`: Second output data (512-bit)
 - `R1`, `R2`, `R3`, `R4`: Register outputs (512-bit each)
+---
 
 #### Processor Module
 
@@ -63,10 +66,13 @@ The `Processor` module integrates the `Memory`, `ALU`, and `RegisterFile` module
 - `rst`: Reset signal
 - `instruction`: Instruction (13-bit)
 - `R1`, `R2`, `R3`, `R4`: Register outputs (512-bit each)
+---
 
 ### Example Testbench
 
 The `Processor_TB` module provides an example testbench to verify the functionality of the `Processor` module.
+
+---
 
 
 ## Usage
