@@ -5,9 +5,9 @@ This project implements a vector processor in Verilog, composed of three main mo
 The project consists of the following Verilog files:
 
 - `Memory.v`
-- `alu.v`
+- `ALU.v`
 - `RegisterFile.v`
-- `processor.v`
+- `Processor.v`
 
 ### Module Descriptions
 
