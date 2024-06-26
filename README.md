@@ -72,8 +72,6 @@ The `Processor` module integrates the `Memory`, `ALU`, and `RegisterFile` module
 
 The `Processor_TB` module provides an example testbench to verify the functionality of the `Processor` module.
 
----
-
 
 ## Usage
 
